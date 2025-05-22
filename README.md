@@ -51,4 +51,4 @@ A fully integrated, cloud-deployable Predictive Maintenance system leveraging ad
 | Cloud Platform   | GCP (BigQuery, Pub/Sub, Vertex AI, Cloud Functions)     |
 | Data Processing  | Pandas, NumPy, GCP Dataflow                              |
 | Monitoring       | Cloud Monitoring, Custom GCP Metrics, Alerting Rules     |
- can you make this readme code for easy for understanding and 0 plagiarisim
+
