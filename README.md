@@ -10,8 +10,7 @@ A fully integrated, cloud-deployable Predictive Maintenance system leveraging ad
 - ✅ **Production-Ready Deployment** with GCP (Vertex AI, Cloud Functions, BigQuery)
 
 ---
-
-## 🏗 System Architecture
+## 🏗️ System Architecture
 
 ```mermaid
 graph TD;
