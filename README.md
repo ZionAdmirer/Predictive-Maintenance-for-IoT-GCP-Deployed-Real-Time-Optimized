@@ -11,14 +11,13 @@ A fully integrated, cloud-deployable Predictive Maintenance system leveraging ad
 
 ---
 ## 🏗️ System Architecture
+graph TD
+    A[📡 IoT Sensor Data Generator] --> B[🔁 Pub/Sub Stream]
+    B --> C[🔄 Dataflow<br>(Preprocessing & Ingestion)]
+    C --> D[🗃️ BigQuery<br>(Partitioned Storage)]
+    D --> E[🧠 Vertex AI Model]
+    E --> F[⚙️ Cloud Function<br>(Prediction API)]
+    F --> G[🌐 FastAPI Real-time Engine]
+    G --> H[⚡ Redis Cache & WebSockets]
+    G --> I[🚨 Alert System &<br>Maintenance Recommender]
 
-```mermaid
-graph TD;
-    A[IoT Sensor Data Generator] --> B[Pub/Sub Stream]
-    B --> C[Dataflow (Preprocessing & Ingestion)]
-    C --> D[BigQuery (Partitioned Storage)]
-    D --> E[Vertex AI Model]
-    E --> F[Cloud Function (Prediction API)]
-    F --> G[FastAPI Real-time Engine]
-    G --> H[Redis Cache & WebSockets]
-    G --> I[Alert System & Maintenance Recommender]
