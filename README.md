@@ -1,7 +1,7 @@
 # Predictive-Maintenance-for-IoT-GCP-Deployed-Real-Time-Optimized
 A fully integrated, cloud-deployable Predictive Maintenance system leveraging advanced machine learning, real-time data pipelines, and serverless architecture. The system is optimized for scalability, speed, and accuracy with GCP-native services.
 
-## 🚀 Key Highlights
+##  Key Highlights
 
 - ✅ **93%+ Accuracy** using optimized LSTM ensemble models
 - ✅ **Real-Time Prediction** with FastAPI + Redis (Sub-100ms latency)
@@ -11,7 +11,7 @@ A fully integrated, cloud-deployable Predictive Maintenance system leveraging ad
 
 ---
 
-## 🏗️ System Architecture
+## 🏗 System Architecture
 
 ```mermaid
 graph TD;
